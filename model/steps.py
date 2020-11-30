@@ -6,6 +6,15 @@ class Steps:
         self.winners = []
         self.is_awake = False
         self.step_count = 100
+        self.price = "Crown"
+        
+    def reset(self):
+        self.players = []
+        self.has_started = False
+        self.winners = []
+        self.is_awake = False
+        self.step_count = 100
+        self.price = "Crown"
 
     @property
     def players(self):
@@ -43,6 +52,15 @@ class Steps:
     def step_count(self):
         return self.__step_count
 
-    @is_awake.setter
+    @step_count.setter
     def step_count(self, step_count):
         self.__step_count = step_count
+        
+    @property
+    def price(self):
+        return self.__price
+
+    @price.setter
+    def price(self, price):
+        self.__price = price
+ 
