@@ -3,7 +3,7 @@
 
 Participants would decide on an object they would like to own for themselves. They become players and would compete against themselves. Each player would take random steps between 0-10 (excluding 0 and 10). Before the game begins, the players would decide on the total number of steps needed to take to get to the destination, where the object is located at as well as the object's name. The winner is determined if a player has accumulated the exact or more steps specified by all the players. Tie players would need a rematch (start a new game) until one person wins.
 ### Note
-The object would be given to the winner at the end of the game.
+The object would/should be given to the winner at the end of the game.
 
 ## Rules of the zSteps Game
  - Players should type "play" to be added to the game.
@@ -27,7 +27,7 @@ The object would be given to the winner at the end of the game.
  - py -3 -m pip install -U discord.py
 
  ## Want to add game to your server?
- - Click [invite](https://discord.com/oauth2/authorize?client_id=782756612099014686&scope=bot&permissions=2147483647) to add this bot to your channel.
+ - Click [invite](https://discord.com/oauth2/authorize?client_id=782756612099014686&scope=bot&permissions=2147483647) to add this bot to your server.
 
  ## Our Official Dicord
  Join our [Discord](https://discord.gg/y6HWaHjbeq) to:
