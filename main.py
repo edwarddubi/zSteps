@@ -1,7 +1,14 @@
 import discord
-from config import get_bot_token
+import os
+try:
+    from config import get_bot_token
+    token = get_bot_token()
+except:
+    token = os.getenv("BOT_TOKEN")
+    
 from model.steps import Steps
 import random
+
 
 client = discord.Client()
 init_game_commands = 'init zSteps'
@@ -138,4 +145,4 @@ async def on_message(message):
 
 
 if __name__ == "__main__":
-    client.run(get_bot_token())
+    client.run(token)
