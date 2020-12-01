@@ -12,7 +12,8 @@ The object would be given to the winner at the end of the game.
  - To start playing, type "takeStep, y" where "y" represents your previous step(s). In the beginning, since no one has a step count, each player would start with a 0 e.g "takeStep, 0".
  - Players would be penalized by taking 5 steps back if they do not obey rule no.4.
  - The steps made by a player would be a number between 0-10; thus, players must type as fast as they can.
- - This is not a turn based game, but measures how fast a player can gain steps to reach their destination.- The winner is determined when a player has the exact or more "n" steps.
+ - This is not a turn based game, but measures how fast a player can gain steps to reach their destination.
+ - The winner is determined when a player has the exact or more "n" steps.
 
 ## Init Game on Discord
  - **init zsteps**
@@ -21,7 +22,16 @@ The object would be given to the winner at the end of the game.
 
  ## Quit?
  - Type **quit** or **exit**
-
-
+ 
 ## Dependencies
  - py -3 -m pip install -U discord.py
+
+ ## Want to add game to your server?
+ - Click [invite](https://discord.com/oauth2/authorize?client_id=782756612099014686&scope=bot&permissions=2147483647) to add this bot to your channel.
+
+ ## Our Official Dicord
+ Join our [Discord](https://discord.gg/y6HWaHjbeq) to:
+ - Explore other bots
+ - Help test the efficiency of the bots we've made so far
+ - Learn to make your own discord bot
+
